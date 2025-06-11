@@ -1,0 +1,46 @@
+.header-img {
+  width: 100%;
+  height: 550px;
+  opacity: 0.6;
+}
+
+.header-list {
+  position: absolute;
+  top: 35%;
+}
+
+.App .swiper-backface-hidden .swiper-slide {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.header-name {
+  color: #fff;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.header-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  width: 630px;
+  margin-bottom: 25px;
+}
+
+.header-link {
+  background-color: #e22b2b;
+  color: #fff;
+  padding: 12px 45px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s all ease-in;
+}
+
+.header-link:hover {
+  background: linear-gradient(90deg, rgb(128, 39, 222), rgb(140, 25, 229));
+}

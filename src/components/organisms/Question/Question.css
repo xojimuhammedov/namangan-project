@@ -1,0 +1,13 @@
+.question {
+  background-color: #8a2be2;
+  color: #ffff;
+  padding: 25px 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.question-button {
+  background: linear-gradient(90deg, rgb(119, 10, 236), rgb(76, 7, 178));
+  width: 250px;
+}

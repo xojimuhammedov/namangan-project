@@ -1,0 +1,12 @@
+export { default as OITSImage } from "./oits.jpg";
+export { default as StigmaImage } from "./stigma.jpg";
+export { default as ImageOne } from "./img1.jpg";
+export { default as ImageTwo } from "./img2.jpg";
+export { default as ImageThree } from "./img3.png";
+export { default as LogoOne } from "./logo1.png";
+export { default as LogoTwo } from "./logo2.png";
+export { default as LogoThree } from "./logo3.png";
+export { default as LogoFour } from "./logo4.png";
+export { default as LogoFive } from "./logo5.png";
+export { default as CompanyImage } from "./company.jpg";
+export { default as NamanganIcon } from "./icon.jpg";

@@ -1,0 +1,21 @@
+.language-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.languages-list {
+  display: flex;
+  align-items: center;
+}
+
+.languages p {
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+/* .language-img {
+  width: 32px;
+} */

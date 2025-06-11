@@ -1,0 +1,36 @@
+.process {
+  padding: 20px 0;
+}
+
+.process-subname {
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
+
+.process-name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 0;
+  line-height: 36px;
+  color: #e22b2b;
+}
+
+.process-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.process-list {
+  cursor: pointer;
+}
+
+.process-names {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #020202;
+}
