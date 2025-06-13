@@ -63,7 +63,7 @@ function News() {
         <div className="news-page">
           {news.map((news) => (
             <div className="news-list">
-              <Link to={`/news/${news.id}`}>
+              {/* <Link to={`/news/${news.id}`}> */}
                 <PlaceholderImage
                   styles={{
                     borderRadius: "5px",
@@ -75,7 +75,8 @@ function News() {
                 />
                 <h3 className="news-subname">{news.title}</h3>
                 <p className="news-text">{news.text}</p>
-              </Link>
+                <Link className="news-link" to={`/news/${news.id}`}>Batafsil o'qish</Link>
+              {/* </Link> */}
             </div>
           ))}
         </div>

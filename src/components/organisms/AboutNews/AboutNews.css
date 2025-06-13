@@ -24,11 +24,11 @@
   text-transform: uppercase;
 }
 
-.about-news .container {
+/* .about-news .container {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-}
+} */
 .news-left{
   width: 27%;
   margin-top: 10px;
