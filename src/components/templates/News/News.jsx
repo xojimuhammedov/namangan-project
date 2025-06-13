@@ -6,6 +6,8 @@ import NewsImage2 from "../../../assets/images/news2.jpg";
 import NewsImage3 from "../../../assets/images/news3.jpg";
 import NewsImage4 from "../../../assets/images/neews4.jpg";
 import NewsImage5 from "../../../assets/images/news5.jpg";
+import NewsImage7 from "../../../assets/images/news7.jpg";
+import NewsImage8 from "../../../assets/images/news8.jpg";
 import PlaceholderImage from "../../atoms/PlaceholderImage";
 import { API_URL, IMAGE_URL } from "../../../services/api";
 import axios from "axios";
@@ -51,6 +53,18 @@ const news = [
     text: "Вилоят хокимлиги хотин-кизлар кумитаси, Вилоят бош отинойиси хамда вилоят ОИТСга қарши  кураш маркази мутахассислари иштирок этди. Иштирокчиларга 5 хил турдаги буклетлар тарқатилди.",
     img: NewsImage5,
   },
+  {
+    id: 7,
+    title: "Namangan OITS Markazi",
+    text: "Viloyat OITSga qarshi kurshish markazi tomonidan aholi orasida OIV infeksiyasi bo‘yicha Diniy boshqarmalar orqali tushuntirish targ‘ibot ishlarini kuchaytirish maqsadida Namangan shaxar 'Muxammad Panox' joʼme masjidida targʼibot tadbirlari oʼtkazildi",
+    img: NewsImage7,
+  },
+  {
+    id: 8,
+    title: "Namangan OITS Markazi",
+    text: "Bugun viloyat OITSga qarshi kurashish markazi mutaxassislari tomonidan shimoliy Farg‘ona kanali bo‘yida 'Sog‘lom hayot uchun 5000 qadam' yurish, yengil gimnastika tadbirlari o‘tkazildi.",
+    img: NewsImage8,
+  },
 ];
 
 function News() {
@@ -64,18 +78,20 @@ function News() {
           {news.map((news) => (
             <div className="news-list">
               {/* <Link to={`/news/${news.id}`}> */}
-                <PlaceholderImage
-                  styles={{
-                    borderRadius: "5px",
-                    width: "350px",
-                    height: "250px",
-                    marginTop: "-10px",
-                  }}
-                  src={news.img}
-                />
-                <h3 className="news-subname">{news.title}</h3>
-                <p className="news-text">{news.text}</p>
-                <Link className="news-link" to={`/news/${news.id}`}>Batafsil o'qish</Link>
+              <PlaceholderImage
+                styles={{
+                  borderRadius: "5px",
+                  width: "350px",
+                  height: "250px",
+                  marginTop: "-10px",
+                }}
+                src={news.img}
+              />
+              <h3 className="news-subname">{news.title}</h3>
+              <p className="news-text">{news.text}</p>
+              <Link className="news-link" to={`/news/${news.id}`}>
+                Batafsil o'qish
+              </Link>
               {/* </Link> */}
             </div>
           ))}

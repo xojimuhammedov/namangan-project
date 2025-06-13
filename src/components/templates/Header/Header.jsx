@@ -37,9 +37,9 @@ function Header() {
                 kurash kunini e'lon qildi, "stigma va diskriminatsiya" atamasi
                 2003-2004 yillarda chetga surildi....
               </p>
-              <Link className="header-link" to={`/category`}>
+              {/* <Link className="header-link" to={`/category`}>
                 Batafsil
-              </Link>
+              </Link> */}
             </div>
           </div>
         </SwiperSlide>
@@ -53,9 +53,9 @@ function Header() {
                 kurash kunini e'lon qildi, "stigma va diskriminatsiya" atamasi
                 2003-2004 yillarda chetga surildi....
               </p>
-              <Link className="header-link" to="/">
+              {/* <Link className="header-link" to="/">
                 Batafsil
-              </Link>
+              </Link> */}
             </div>
           </div>
         </SwiperSlide>
